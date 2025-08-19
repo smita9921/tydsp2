@@ -3,15 +3,15 @@ on:
  push:
   branches:
    -main
-  schedule:
-   -corn:"0 0 * * *"#every day at midnight UTC
-   workflow_dispatch:#Msnual trigger
+ schedule:
+   - cron: "0 0 * * *"#every day at midnight UTC
+ workflow_dispatch:
 
 jobs:
- demo-commands:
-  runs-on:ubntu-latest
+   demo-commands:
+    runs-on: ubntu-latest
 
-steps:
- -name:show current working dirctory 
-   run:pwd
+    steps:
+     - name: show current working dirctory 
+       run: pwd
       
