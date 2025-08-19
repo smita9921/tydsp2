@@ -9,7 +9,7 @@ on:
 
 jobs:
    demo-commands:
-    runs-on: ubntu-latest
+    runs-on: ubuntu-latest
 
     steps:
      - name: show current working dirctory 
