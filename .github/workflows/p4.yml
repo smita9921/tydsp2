@@ -7,9 +7,9 @@ on:
    -corn:"0 0 * * *"#every day at midnight UTC
    workflow_dispatch:#Msnual trigger
 
-   jobs:
-    demo-commands:
-     runs-on:ubntu-latest
+  jobs:
+   demo-commands:
+    runs-on:ubntu-latest
 
      steps:
       -name:show current working dirctory 
