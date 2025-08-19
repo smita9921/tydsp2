@@ -12,5 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: show current working dirctory 
-       run: pwd   
+     - name: show current working directory 
+       run: pwd
+
+     - name : list file in directory
+       run : Is- Ia
+
+     - name : print today's date
+       run: date
