@@ -11,7 +11,7 @@ on:
    demo-commands:
     runs-on:ubntu-latest
 
-     steps:
-      -name:show current working dirctory 
+   steps:
+     -name:show current working dirctory 
       run:pwd
       
